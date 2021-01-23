@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    background-color: #ffffff;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #018be7;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    margin: 30px auto;
+    border: 2px solid rgba(54, 54, 54, .3);
+    border-radius: 5px;
+}
+
+
+/* --------------------------- Link stuff! ------------------------------- */
+a {
+    text-decoration: none;
+    color: #018be7;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+/* ------------------------------ Header -------------------------------- */
+.header {
+    background-color: #018be7;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 40px 0 40px 0;
+}
+
+.header h2 {
+    font-size: 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+/* ------------------------- Image position and color --------------------- */
+.self-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(241, 209, 23);
+    display: block;
+    margin: 20px auto 30px auto;
+}
+
+.intro{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+.intro h2 {
+    padding: 0 0 20px 0;
+}
+
+.intro ul {
+    list-style-type: none;
+}
+
+.about-me {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* ---------------- pesky 2nd paragraph needed some room ------------- */
+.about-me p:nth-child(1){
+    height: 100px;
+}
+
+.contact {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact ol {
+    list-style: none;
+}
