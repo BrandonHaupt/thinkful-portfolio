@@ -102,8 +102,12 @@ a:hover {
 }
 
 /* ---------------- pesky 2nd paragraph needed some room ------------- */
-.about-me p:nth-child(1){
+/* .about-me p:nth-child(1){
     height: 100px;
+} */
+
+.give-me-height {
+    height: 200px;
 }
 
 .contact {
